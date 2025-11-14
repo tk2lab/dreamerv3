@@ -1,0 +1,19 @@
+[project]
+name = "dreamerv3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ale-py>=0.11.2",
+    "autorom[accept-rom-license]>=0.6.1",
+    "colored-traceback>=0.4.2",
+    "crafter>=1.8.3",
+    "einops>=0.8.1",
+    "jax-cuda12-plugin[with-cuda]>=0.8.0; sys_platform == 'linux'",
+    "ninjax>=3.6.2",
+    "optax>=0.2.6",
+    "portal>=3.7.3",
+    "scope>=0.6.3",
+    "tqdm>=4.67.1",
+]
